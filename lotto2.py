@@ -1,7 +1,7 @@
 from sklearn import tree
 import pandas as pd
 
-data = pd.read_csv('thLotto_49-59.csv')
+data = pd.read_csv('thLotto_49-60.csv')
 day = list(zip(data['day'],data['month'],data['year']))
 first = data['first']
 digit3 = data['3digit']
